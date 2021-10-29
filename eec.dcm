@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PCF8575TS/1,118
+D PCF8575TS/1,118
+F https://www.nxp.com/docs/en/data-sheet/PCF8575.pdf
+$ENDCMP
+# end doc library
