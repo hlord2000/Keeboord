@@ -251,62 +251,6 @@ F 3 "" H 5200 6550 50  0001 C CNN
 $EndComp
 Text Label 6600 8800 0    50   ~ 0
 INT_0x0
-Text Label 3050 8800 0    50   ~ 0
-INT_0x1
-Text Label 3050 6350 0    50   ~ 0
-INT_0x2
-Text Label 6600 6350 0    50   ~ 0
-INT_0x3
-Wire Wire Line
-	6600 9300 7000 9300
-Wire Wire Line
-	6600 9400 7000 9400
-Wire Wire Line
-	6600 9500 7000 9500
-Wire Wire Line
-	6600 9600 7000 9600
-Wire Wire Line
-	6600 9700 7000 9700
-Wire Wire Line
-	6600 9800 7000 9800
-Wire Wire Line
-	6600 9900 7000 9900
-Wire Wire Line
-	6600 10000 7000 10000
-Text Label 6600 9300 0    50   ~ 0
-ROW_1_0
-Text Label 6600 9400 0    50   ~ 0
-ROW_1_1
-Text Label 6600 9500 0    50   ~ 0
-ROW_1_2
-Text Label 6600 9600 0    50   ~ 0
-ROW_1_3
-Text Label 6600 9700 0    50   ~ 0
-ROW_1_4
-Text Label 6600 9800 0    50   ~ 0
-ROW_1_5
-Text Label 6600 9900 0    50   ~ 0
-ROW_1_6
-Text Label 6600 10000 0    50   ~ 0
-ROW_1_7
-Entry Wire Line
-	7000 9300 7100 9400
-Entry Wire Line
-	7000 9400 7100 9500
-Entry Wire Line
-	7000 9500 7100 9600
-Entry Wire Line
-	7000 9600 7100 9700
-Entry Wire Line
-	7000 9700 7100 9800
-Entry Wire Line
-	7000 9800 7100 9900
-Entry Wire Line
-	7000 9900 7100 10000
-Entry Wire Line
-	7000 10000 7100 10100
-Text GLabel 7100 10100 2    50   Input ~ 0
-ROW_1[0..7]
 Text Label 4600 1450 2    50   ~ 0
 INT_0x3
 Text Label 4600 1300 2    50   ~ 0
@@ -394,10 +338,10 @@ F 3 "" H 6250 1000 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L RP2040:SeeeduinoXIAO U3
+L keyboard-rescue:SeeeduinoXIAO-RP2040 C1
 U 1 1 617DF93D
 P 5450 1450
-F 0 "U3" H 5425 511 50  0000 C CNN
+F 0 "C1" H 5425 511 50  0000 C CNN
 F 1 "SeeeduinoXIAO" H 5425 420 50  0000 C CNN
 F 2 "RP2040:Seeeduino XIAO-MOUDLE14P-2.54-21X17.8MM" H 5100 1650 50  0001 C CNN
 F 3 "" H 5100 1650 50  0001 C CNN
@@ -711,8 +655,6 @@ F 3 "" H 11850 10200 50  0001 C CNN
 	1    11850 10200
 	1    0    0    -1  
 $EndComp
-Text Label 6600 8700 0    50   ~ 0
-INT_0x0
 Text Label 3050 8900 0    50   ~ 0
 INT_0x1
 Text Label 3050 6450 0    50   ~ 0
@@ -805,21 +747,7 @@ NoConn ~ 5200 7750
 NoConn ~ 5200 7650
 NoConn ~ 5200 7550
 $Comp
-L MCP23017:MCP23017T-E_SO U1
-U 1 1 61A36BFE
-P 5900 9400
-F 0 "U1" H 5900 10567 50  0000 C CNN
-F 1 "ROW_1_2" H 5900 10476 50  0000 C CNN
-F 2 "MCP23017:SOIC127P1030X265-28N" H 5900 9400 50  0001 L BNN
-F 3 "" H 5900 9400 50  0001 L BNN
-F 4 "IPC7351B" H 5900 9400 50  0001 L BNN "STANDARD"
-F 5 "Microchip" H 5900 9400 50  0001 L BNN "MANUFACTURER"
-F 6 "" H 5900 9400 50  0001 L BNN "PARTREV"
-	1    5900 9400
-	1    0    0    -1  
-$EndComp
-$Comp
-L MCP23017:MCP23017T-E_SO U2
+L keyboard-rescue:MCP23017T-E_SO-MCP23017 U2
 U 1 1 61AC643D
 P 2350 9500
 F 0 "U2" H 2350 10667 50  0000 C CNN
@@ -833,7 +761,7 @@ F 6 "" H 2350 9500 50  0001 L BNN "PARTREV"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MCP23017:MCP23017T-E_SO U3
+L keyboard-rescue:MCP23017T-E_SO-MCP23017 U3
 U 1 1 61B2C292
 P 2350 7050
 F 0 "U3" H 2350 8217 50  0000 C CNN
@@ -844,20 +772,6 @@ F 4 "IPC7351B" H 2350 7050 50  0001 L BNN "STANDARD"
 F 5 "Microchip" H 2350 7050 50  0001 L BNN "MANUFACTURER"
 F 6 "" H 2350 7050 50  0001 L BNN "PARTREV"
 	1    2350 7050
-	1    0    0    -1  
-$EndComp
-$Comp
-L MCP23017:MCP23017T-E_SO U4
-U 1 1 61B5E659
-P 5900 7050
-F 0 "U4" H 5900 8217 50  0000 C CNN
-F 1 "ROW_7_8" H 5900 8126 50  0000 C CNN
-F 2 "MCP23017:SOIC127P1030X265-28N" H 5900 7050 50  0001 L BNN
-F 3 "" H 5900 7050 50  0001 L BNN
-F 4 "IPC7351B" H 5900 7050 50  0001 L BNN "STANDARD"
-F 5 "Microchip" H 5900 7050 50  0001 L BNN "MANUFACTURER"
-F 6 "" H 5900 7050 50  0001 L BNN "PARTREV"
-	1    5900 7050
 	1    0    0    -1  
 $EndComp
 Connection ~ 11850 10200
@@ -872,43 +786,11 @@ Wire Wire Line
 Wire Wire Line
 	10950 10200 11850 10200
 Connection ~ 10950 10200
-Wire Bus Line
-	7100 7050 7100 7750
-Wire Bus Line
-	4700 7150 4700 7550
-Wire Bus Line
-	8050 1400 14550 1400
-Wire Bus Line
-	1150 7150 1150 7850
-Wire Bus Line
-	3550 7050 3550 7750
-Wire Bus Line
-	1150 9600 1150 10300
-Wire Bus Line
-	3550 9500 3550 10200
-Wire Bus Line
-	4700 9500 4700 10200
-Wire Bus Line
-	7100 9400 7100 10100
-Wire Bus Line
-	8050 2550 14550 2550
-Wire Bus Line
-	8050 3650 14550 3650
-Wire Bus Line
-	8050 4800 14550 4800
-Wire Bus Line
-	8050 5950 14550 5950
-Wire Bus Line
-	8050 7100 14550 7100
-Wire Bus Line
-	8050 8200 14550 8200
-Wire Bus Line
-	8050 9350 11750 9350
 Wire Wire Line
 	9100 3400 10000 3400
 Connection ~ 9100 3400
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M10
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M10
 U 1 1 61A5B3AE
 P 9100 3200
 F 0 "M10" V 9146 3156 50  0000 R CNN
@@ -1063,7 +945,7 @@ Wire Wire Line
 Wire Wire Line
 	9100 6050 9100 6400
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M34
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M34
 U 1 1 61DA35CE
 P 9100 6600
 F 0 "M34" V 9146 6556 50  0000 R CNN
@@ -1101,7 +983,7 @@ Wire Wire Line
 Wire Wire Line
 	10000 3750 10000 4100
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M19
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M19
 U 1 1 61D3E94A
 P 10000 4300
 F 0 "M19" V 10046 4256 50  0000 R CNN
@@ -1159,7 +1041,7 @@ Wire Wire Line
 Wire Wire Line
 	8150 2650 8150 3000
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M1
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M1
 U 1 1 61816482
 P 8150 2050
 F 0 "M1" V 8196 2006 50  0000 R CNN
@@ -1170,7 +1052,7 @@ F 3 "" H 8150 2050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M2
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M2
 U 1 1 6184ED93
 P 9100 2050
 F 0 "M2" V 9146 2006 50  0000 R CNN
@@ -1181,7 +1063,7 @@ F 3 "" H 9100 2050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M3
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M3
 U 1 1 61852501
 P 10000 2050
 F 0 "M3" V 10046 2006 50  0000 R CNN
@@ -1192,7 +1074,7 @@ F 3 "" H 10000 2050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M4
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M4
 U 1 1 6185290D
 P 10950 2050
 F 0 "M4" V 10996 2006 50  0000 R CNN
@@ -1203,7 +1085,7 @@ F 3 "" H 10950 2050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M5
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M5
 U 1 1 61856AAF
 P 11850 2050
 F 0 "M5" V 11896 2006 50  0000 R CNN
@@ -1214,7 +1096,7 @@ F 3 "" H 11850 2050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M6
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M6
 U 1 1 61856F7B
 P 12800 2050
 F 0 "M6" V 12846 2006 50  0000 R CNN
@@ -1225,7 +1107,7 @@ F 3 "" H 12800 2050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M7
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M7
 U 1 1 61856FA3
 P 13700 2050
 F 0 "M7" V 13746 2006 50  0000 R CNN
@@ -1236,7 +1118,7 @@ F 3 "" H 13700 2050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M8
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M8
 U 1 1 61856FCB
 P 14650 2050
 F 0 "M8" V 14696 2006 50  0000 R CNN
@@ -1283,7 +1165,7 @@ ROW_2_1
 Text Label 8150 2650 0    50   ~ 0
 ROW_2_0
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M9
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M9
 U 1 1 61D2EC7C
 P 8150 3200
 F 0 "M9" V 8196 3156 50  0000 R CNN
@@ -1294,7 +1176,7 @@ F 3 "" H 8150 3200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M11
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M11
 U 1 1 61D2EC90
 P 10000 3200
 F 0 "M11" V 10046 3156 50  0000 R CNN
@@ -1305,7 +1187,7 @@ F 3 "" H 10000 3200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M12
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M12
 U 1 1 61D2EC9A
 P 10950 3200
 F 0 "M12" V 10996 3156 50  0000 R CNN
@@ -1316,7 +1198,7 @@ F 3 "" H 10950 3200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M13
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M13
 U 1 1 61D2ECA4
 P 11850 3200
 F 0 "M13" V 11896 3156 50  0000 R CNN
@@ -1327,7 +1209,7 @@ F 3 "" H 11850 3200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M14
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M14
 U 1 1 61D2ECAE
 P 12800 3200
 F 0 "M14" V 12846 3156 50  0000 R CNN
@@ -1338,7 +1220,7 @@ F 3 "" H 12800 3200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M16
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M16
 U 1 1 61D2ECC2
 P 14650 3200
 F 0 "M16" V 14696 3156 50  0000 R CNN
@@ -1398,7 +1280,7 @@ ROW_3_1
 Text Label 8150 3750 0    50   ~ 0
 ROW_3_0
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M17
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M17
 U 1 1 61D3E936
 P 8150 4300
 F 0 "M17" V 8196 4256 50  0000 R CNN
@@ -1409,7 +1291,7 @@ F 3 "" H 8150 4300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M18
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M18
 U 1 1 61D3E940
 P 9100 4300
 F 0 "M18" V 9146 4256 50  0000 R CNN
@@ -1420,7 +1302,7 @@ F 3 "" H 9100 4300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M20
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M20
 U 1 1 61D3E954
 P 10950 4300
 F 0 "M20" V 10996 4256 50  0000 R CNN
@@ -1431,7 +1313,7 @@ F 3 "" H 10950 4300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M21
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M21
 U 1 1 61D3E95E
 P 11850 4300
 F 0 "M21" V 11896 4256 50  0000 R CNN
@@ -1442,7 +1324,7 @@ F 3 "" H 11850 4300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M22
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M22
 U 1 1 61D3E968
 P 12800 4300
 F 0 "M22" V 12846 4256 50  0000 R CNN
@@ -1453,7 +1335,7 @@ F 3 "" H 12800 4300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M23
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M23
 U 1 1 61D3E972
 P 13700 4300
 F 0 "M23" V 13746 4256 50  0000 R CNN
@@ -1464,7 +1346,7 @@ F 3 "" H 13700 4300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M24
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M24
 U 1 1 61D3E97C
 P 14650 4300
 F 0 "M24" V 14696 4256 50  0000 R CNN
@@ -1524,7 +1406,7 @@ ROW_4_1
 Text Label 8150 4900 0    50   ~ 0
 ROW_4_0
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M25
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M25
 U 1 1 61D3EA67
 P 8150 5450
 F 0 "M25" V 8196 5406 50  0000 R CNN
@@ -1535,7 +1417,7 @@ F 3 "" H 8150 5450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M26
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M26
 U 1 1 61D3EA71
 P 9100 5450
 F 0 "M26" V 9146 5406 50  0000 R CNN
@@ -1546,7 +1428,7 @@ F 3 "" H 9100 5450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M27
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M27
 U 1 1 61D3EA7B
 P 10000 5450
 F 0 "M27" V 10046 5406 50  0000 R CNN
@@ -1557,7 +1439,7 @@ F 3 "" H 10000 5450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M28
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M28
 U 1 1 61D3EA85
 P 10950 5450
 F 0 "M28" V 10996 5406 50  0000 R CNN
@@ -1568,7 +1450,7 @@ F 3 "" H 10950 5450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M29
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M29
 U 1 1 61D3EA8F
 P 11850 5450
 F 0 "M29" V 11896 5406 50  0000 R CNN
@@ -1579,7 +1461,7 @@ F 3 "" H 11850 5450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M30
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M30
 U 1 1 61D3EA99
 P 12800 5450
 F 0 "M30" V 12846 5406 50  0000 R CNN
@@ -1590,7 +1472,7 @@ F 3 "" H 12800 5450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M31
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M31
 U 1 1 61D3EAA3
 P 13700 5450
 F 0 "M31" V 13746 5406 50  0000 R CNN
@@ -1601,7 +1483,7 @@ F 3 "" H 13700 5450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M32
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M32
 U 1 1 61D3EAAD
 P 14650 5450
 F 0 "M32" V 14696 5406 50  0000 R CNN
@@ -1666,7 +1548,7 @@ ROW_5_1
 Text Label 8150 6050 0    50   ~ 0
 ROW_5_0
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M33
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M33
 U 1 1 61DA35C4
 P 8150 6600
 F 0 "M33" V 8196 6556 50  0000 R CNN
@@ -1677,7 +1559,7 @@ F 3 "" H 8150 6600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M35
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M35
 U 1 1 61DA35D8
 P 10000 6600
 F 0 "M35" V 10046 6556 50  0000 R CNN
@@ -1688,7 +1570,7 @@ F 3 "" H 10000 6600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M36
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M36
 U 1 1 61DA35E2
 P 10950 6600
 F 0 "M36" V 10996 6556 50  0000 R CNN
@@ -1699,7 +1581,7 @@ F 3 "" H 10950 6600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M37
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M37
 U 1 1 61DA35EC
 P 11850 6600
 F 0 "M37" V 11896 6556 50  0000 R CNN
@@ -1710,7 +1592,7 @@ F 3 "" H 11850 6600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M38
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M38
 U 1 1 61DA35F6
 P 12800 6600
 F 0 "M38" V 12846 6556 50  0000 R CNN
@@ -1721,7 +1603,7 @@ F 3 "" H 12800 6600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M39
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M39
 U 1 1 61DA3600
 P 13700 6600
 F 0 "M39" V 13746 6556 50  0000 R CNN
@@ -1732,7 +1614,7 @@ F 3 "" H 13700 6600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M40
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M40
 U 1 1 61DA360A
 P 14650 6600
 F 0 "M40" V 14696 6556 50  0000 R CNN
@@ -1792,7 +1674,7 @@ ROW_6_1
 Text Label 8150 7200 0    50   ~ 0
 ROW_6_0
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M41
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M41
 U 1 1 61DA36F5
 P 8150 7750
 F 0 "M41" V 8196 7706 50  0000 R CNN
@@ -1803,7 +1685,7 @@ F 3 "" H 8150 7750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M42
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M42
 U 1 1 61DA36FF
 P 9100 7750
 F 0 "M42" V 9146 7706 50  0000 R CNN
@@ -1814,7 +1696,7 @@ F 3 "" H 9100 7750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M43
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M43
 U 1 1 61DA3709
 P 10000 7750
 F 0 "M43" V 10046 7706 50  0000 R CNN
@@ -1825,7 +1707,7 @@ F 3 "" H 10000 7750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M44
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M44
 U 1 1 61DA3713
 P 10950 7750
 F 0 "M44" V 10996 7706 50  0000 R CNN
@@ -1836,7 +1718,7 @@ F 3 "" H 10950 7750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M45
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M45
 U 1 1 61DA371D
 P 11850 7750
 F 0 "M45" V 11896 7706 50  0000 R CNN
@@ -1847,7 +1729,7 @@ F 3 "" H 11850 7750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M46
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M46
 U 1 1 61DA3727
 P 12800 7750
 F 0 "M46" V 12846 7706 50  0000 R CNN
@@ -1858,7 +1740,7 @@ F 3 "" H 12800 7750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M47
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M47
 U 1 1 61DA3731
 P 13700 7750
 F 0 "M47" V 13746 7706 50  0000 R CNN
@@ -1869,7 +1751,7 @@ F 3 "" H 13700 7750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M48
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M48
 U 1 1 61DA373B
 P 14650 7750
 F 0 "M48" V 14696 7706 50  0000 R CNN
@@ -1934,7 +1816,7 @@ ROW_7_1
 Text Label 8150 8300 0    50   ~ 0
 ROW_7_0
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M49
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M49
 U 1 1 61DA3826
 P 8150 8850
 F 0 "M49" V 8196 8806 50  0000 R CNN
@@ -1945,7 +1827,7 @@ F 3 "" H 8150 8850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M50
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M50
 U 1 1 61DA3830
 P 9100 8850
 F 0 "M50" V 9146 8806 50  0000 R CNN
@@ -1956,7 +1838,7 @@ F 3 "" H 9100 8850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M51
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M51
 U 1 1 61DA383A
 P 10000 8850
 F 0 "M51" V 10046 8806 50  0000 R CNN
@@ -1967,7 +1849,7 @@ F 3 "" H 10000 8850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M52
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M52
 U 1 1 61DA3844
 P 10950 8850
 F 0 "M52" V 10996 8806 50  0000 R CNN
@@ -1978,7 +1860,7 @@ F 3 "" H 10950 8850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M53
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M53
 U 1 1 61DA384E
 P 11850 8850
 F 0 "M53" V 11896 8806 50  0000 R CNN
@@ -1989,7 +1871,7 @@ F 3 "" H 11850 8850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M54
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M54
 U 1 1 61DA3858
 P 12800 8850
 F 0 "M54" V 12846 8806 50  0000 R CNN
@@ -2000,7 +1882,7 @@ F 3 "" H 12800 8850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M55
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M55
 U 1 1 61DA3862
 P 13700 8850
 F 0 "M55" V 13746 8806 50  0000 R CNN
@@ -2011,7 +1893,7 @@ F 3 "" H 13700 8850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M56
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M56
 U 1 1 61DA386C
 P 14650 8850
 F 0 "M56" V 14696 8806 50  0000 R CNN
@@ -2070,7 +1952,7 @@ ROW_8_1
 Text Label 8150 9450 0    50   ~ 0
 ROW_8_0
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M57
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M57
 U 1 1 61DA3957
 P 8150 10000
 F 0 "M57" V 8196 9956 50  0000 R CNN
@@ -2081,7 +1963,7 @@ F 3 "" H 8150 10000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M58
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M58
 U 1 1 61DA3961
 P 9100 10000
 F 0 "M58" V 9146 9956 50  0000 R CNN
@@ -2092,7 +1974,7 @@ F 3 "" H 9100 10000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M59
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M59
 U 1 1 61DA396B
 P 10000 10000
 F 0 "M59" V 10046 9956 50  0000 R CNN
@@ -2103,7 +1985,7 @@ F 3 "" H 10000 10000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M60
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M60
 U 1 1 61DA3975
 P 10950 10000
 F 0 "M60" V 10996 9956 50  0000 R CNN
@@ -2114,7 +1996,7 @@ F 3 "" H 10950 10000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M61
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M61
 U 1 1 61DA397F
 P 11850 10000
 F 0 "M61" V 11896 9956 50  0000 R CNN
@@ -2137,7 +2019,7 @@ Entry Wire Line
 Text GLabel 8050 9350 0    50   Input ~ 0
 ROW_8[0..4]
 $Comp
-L SparkFun-Electromechanical:SWITCH-SPST-2TV M15
+L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical M15
 U 1 1 61D2ECB8
 P 13700 3200
 F 0 "M15" V 13746 3156 50  0000 R CNN
@@ -2147,4 +2029,118 @@ F 3 "" H 13700 3200 50  0001 C CNN
 	1    13700 3200
 	0    -1   -1   0   
 $EndComp
+$Comp
+L keyboard-rescue:MCP23017T-E_SO-MCP23017 U1
+U 1 1 61A36BFE
+P 5900 9400
+F 0 "U1" H 5900 10567 50  0000 C CNN
+F 1 "ROW_1_2" H 5900 10476 50  0000 C CNN
+F 2 "MCP23017:SOIC127P1030X265-28N" H 5900 9400 50  0001 L BNN
+F 3 "" H 5900 9400 50  0001 L BNN
+F 4 "IPC7351B" H 5900 9400 50  0001 L BNN "STANDARD"
+F 5 "Microchip" H 5900 9400 50  0001 L BNN "MANUFACTURER"
+F 6 "" H 5900 9400 50  0001 L BNN "PARTREV"
+	1    5900 9400
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6600 8700
+$Comp
+L keyboard-rescue:MCP23017T-E_SO-MCP23017 U4
+U 1 1 61B5E659
+P 5900 7050
+F 0 "U4" H 5900 8217 50  0000 C CNN
+F 1 "ROW_7_8" H 5900 8126 50  0000 C CNN
+F 2 "MCP23017:SOIC127P1030X265-28N" H 5900 7050 50  0001 L BNN
+F 3 "" H 5900 7050 50  0001 L BNN
+F 4 "IPC7351B" H 5900 7050 50  0001 L BNN "STANDARD"
+F 5 "Microchip" H 5900 7050 50  0001 L BNN "MANUFACTURER"
+F 6 "" H 5900 7050 50  0001 L BNN "PARTREV"
+	1    5900 7050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6600 6350
+NoConn ~ 3050 6350
+NoConn ~ 3050 8800
+Wire Wire Line
+	6600 10000 7000 10000
+Wire Wire Line
+	6600 9900 7000 9900
+Wire Wire Line
+	6600 9800 7000 9800
+Wire Wire Line
+	6600 9700 7000 9700
+Wire Wire Line
+	6600 9600 7000 9600
+Wire Wire Line
+	6600 9500 7000 9500
+Wire Wire Line
+	6600 9400 7000 9400
+Wire Wire Line
+	6600 9300 7000 9300
+Text Label 6600 10000 0    50   ~ 0
+ROW_1_0
+Text Label 6600 9900 0    50   ~ 0
+ROW_1_1
+Text Label 6600 9800 0    50   ~ 0
+ROW_1_2
+Text Label 6600 9700 0    50   ~ 0
+ROW_1_3
+Text Label 6600 9600 0    50   ~ 0
+ROW_1_4
+Text Label 6600 9500 0    50   ~ 0
+ROW_1_5
+Text Label 6600 9400 0    50   ~ 0
+ROW_1_6
+Text Label 6600 9300 0    50   ~ 0
+ROW_1_7
+Entry Wire Line
+	7000 10000 7100 9900
+Entry Wire Line
+	7000 9900 7100 9800
+Entry Wire Line
+	7000 9800 7100 9700
+Entry Wire Line
+	7000 9700 7100 9600
+Entry Wire Line
+	7000 9600 7100 9500
+Entry Wire Line
+	7000 9500 7100 9400
+Entry Wire Line
+	7000 9400 7100 9300
+Entry Wire Line
+	7000 9300 7100 9200
+Text GLabel 7100 9200 2    50   Input ~ 0
+ROW_1[0..7]
+Wire Bus Line
+	8050 9350 11750 9350
+Wire Bus Line
+	4700 7150 4700 7550
+Wire Bus Line
+	7100 9200 7100 9900
+Wire Bus Line
+	4700 9500 4700 10200
+Wire Bus Line
+	3550 9500 3550 10200
+Wire Bus Line
+	1150 9600 1150 10300
+Wire Bus Line
+	3550 7050 3550 7750
+Wire Bus Line
+	1150 7150 1150 7850
+Wire Bus Line
+	8050 1400 14550 1400
+Wire Bus Line
+	7100 7050 7100 7750
+Wire Bus Line
+	8050 2550 14550 2550
+Wire Bus Line
+	8050 3650 14550 3650
+Wire Bus Line
+	8050 4800 14550 4800
+Wire Bus Line
+	8050 5950 14550 5950
+Wire Bus Line
+	8050 7100 14550 7100
+Wire Bus Line
+	8050 8200 14550 8200
 $EndSCHEMATC

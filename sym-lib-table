@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name RP2040)(type Legacy)(uri "C:/Users/Helmut Lord/Documents/Personal/keyboard/Seeeduino XIAO KICAD/Seeeduino XIAO.lib")(options "")(descr ""))
   (lib (name MCP23017)(type Legacy)(uri "C:/Users/Helmut Lord/Documents/Personal/keyboard/MCP23017T-E_SO.lib")(options "")(descr ""))
+  (lib (name keyboard-rescue)(type Legacy)(uri ${KIPRJMOD}/keyboard-rescue.lib)(options "")(descr ""))
 )
