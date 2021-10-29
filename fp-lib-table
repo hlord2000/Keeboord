@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name RP2040)(type KiCad)(uri "C:/Users/Helmut Lord/Documents/Personal/keyboard/Seeeduino XIAO KICAD")(options "")(descr ""))
   (lib (name Khail)(type KiCad)(uri "C:/Users/Helmut Lord/Documents/Personal/keyboard/keyswitches.pretty-master")(options "")(descr ""))
+  (lib (name MCP23017)(type KiCad)(uri "C:/Users/Helmut Lord/Documents/Personal/keyboard")(options "")(descr ""))
 )
