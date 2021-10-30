@@ -1,6 +1,0 @@
-(fp_lib_table
-  (lib (name RP2040)(type KiCad)(uri "C:/Users/Helmut Lord/Documents/Personal/keyboard/Seeeduino XIAO KICAD")(options "")(descr ""))
-  (lib (name Khail)(type KiCad)(uri /Users/helmutlord/Documents/Keeboord/keyswitches.pretty-master)(options "")(descr ""))
-  (lib (name MCP23017)(type KiCad)(uri "C:/Users/Helmut Lord/Documents/Personal/keyboard/eec.pretty")(options "")(descr ""))
-  (lib (name Khail_Pog)(type KiCad)(uri "C:/Users/Helmut Lord/Documents/Personal/keyboard/keyswitch-kicad-library-main")(options "")(descr ""))
-)

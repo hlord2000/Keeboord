@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name 00_Keeboord)(type Legacy)(uri ${KIPRJMOD}/MCP23017T-E_SO.lib)(options "")(descr ""))
+  (lib (name keyboard-rescue)(type Legacy)(uri ${KIPRJMOD}/keyboard-rescue.lib)(options "")(descr ""))
+)
