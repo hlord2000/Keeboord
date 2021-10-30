@@ -1412,4 +1412,70 @@ F 3 "" H 8950 1450 50  0001 C CNN
 	1    8950 1450
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 62183D28
+P 6950 2150
+F 0 "H2" H 7050 2196 50  0000 L CNN
+F 1 "MountingHole" H 7050 2105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 6950 2150 50  0001 C CNN
+F 3 "~" H 6950 2150 50  0001 C CNN
+	1    6950 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 62184586
+P 6950 1950
+F 0 "H1" H 7050 1996 50  0000 L CNN
+F 1 "MountingHole" H 7050 1905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 6950 1950 50  0001 C CNN
+F 3 "~" H 6950 1950 50  0001 C CNN
+	1    6950 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 62184C5C
+P 6950 2350
+F 0 "H3" H 7050 2396 50  0000 L CNN
+F 1 "MountingHole" H 7050 2305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 6950 2350 50  0001 C CNN
+F 3 "~" H 6950 2350 50  0001 C CNN
+	1    6950 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 6218533F
+P 6950 2550
+F 0 "H4" H 7050 2596 50  0000 L CNN
+F 1 "MountingHole" H 7050 2505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 6950 2550 50  0001 C CNN
+F 3 "~" H 6950 2550 50  0001 C CNN
+	1    6950 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 621C9116
+P 6950 2750
+F 0 "H?" H 7050 2796 50  0000 L CNN
+F 1 "MountingHole" H 7050 2705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 6950 2750 50  0001 C CNN
+F 3 "~" H 6950 2750 50  0001 C CNN
+	1    6950 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 621C92B7
+P 6950 2950
+F 0 "H?" H 7050 2996 50  0000 L CNN
+F 1 "MountingHole" H 7050 2905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 6950 2950 50  0001 C CNN
+F 3 "~" H 6950 2950 50  0001 C CNN
+	1    6950 2950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
