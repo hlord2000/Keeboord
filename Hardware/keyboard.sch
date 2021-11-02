@@ -39,7 +39,7 @@ Text Label 1650 3150 2    50   ~ 0
 SCL_
 Text Label 1650 6350 2    50   ~ 0
 SCL_
-Text Label 5200 6350 2    50   ~ 0
+Text Label 4400 6350 2    50   ~ 0
 SCL_
 Text Label 4400 3150 2    50   ~ 0
 SCL_
@@ -57,15 +57,15 @@ $EndComp
 $Comp
 L power:GND #PWR022
 U 1 1 617D69F1
-P 6600 7950
-F 0 "#PWR022" H 6600 7700 50  0001 C CNN
-F 1 "GND" H 6605 7777 50  0000 C CNN
-F 2 "" H 6600 7950 50  0001 C CNN
-F 3 "" H 6600 7950 50  0001 C CNN
-	1    6600 7950
+P 5800 7950
+F 0 "#PWR022" H 5800 7700 50  0001 C CNN
+F 1 "GND" H 5805 7777 50  0000 C CNN
+F 2 "" H 5800 7950 50  0001 C CNN
+F 3 "" H 5800 7950 50  0001 C CNN
+	1    5800 7950
 	1    0    0    -1  
 $EndComp
-Text Label 5200 6950 2    50   ~ 0
+Text Label 4400 6950 2    50   ~ 0
 SDA_
 Text Label 4400 3750 2    50   ~ 0
 SDA_
@@ -94,12 +94,12 @@ $EndComp
 $Comp
 L power:+5V #PWR021
 U 1 1 617FF865
-P 6600 6150
-F 0 "#PWR021" H 6600 6000 50  0001 C CNN
-F 1 "+5V" H 6615 6323 50  0000 C CNN
-F 2 "" H 6600 6150 50  0001 C CNN
-F 3 "" H 6600 6150 50  0001 C CNN
-	1    6600 6150
+P 5800 6150
+F 0 "#PWR021" H 5800 6000 50  0001 C CNN
+F 1 "+5V" H 5815 6323 50  0000 C CNN
+F 2 "" H 5800 6150 50  0001 C CNN
+F 3 "" H 5800 6150 50  0001 C CNN
+	1    5800 6150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -171,12 +171,12 @@ $EndComp
 $Comp
 L power:GND #PWR015
 U 1 1 6180B665
-P 5200 6650
-F 0 "#PWR015" H 5200 6400 50  0001 C CNN
-F 1 "GND" V 5205 6522 50  0000 R CNN
-F 2 "" H 5200 6650 50  0001 C CNN
-F 3 "" H 5200 6650 50  0001 C CNN
-	1    5200 6650
+P 4400 6650
+F 0 "#PWR015" H 4400 6400 50  0001 C CNN
+F 1 "GND" V 4405 6522 50  0000 R CNN
+F 2 "" H 4400 6650 50  0001 C CNN
+F 3 "" H 4400 6650 50  0001 C CNN
+	1    4400 6650
 	0    1    1    0   
 $EndComp
 $Comp
@@ -226,23 +226,23 @@ $EndComp
 $Comp
 L power:+5V #PWR013
 U 1 1 61810AA1
-P 5200 6450
-F 0 "#PWR013" H 5200 6300 50  0001 C CNN
-F 1 "+5V" V 5215 6578 50  0000 L CNN
-F 2 "" H 5200 6450 50  0001 C CNN
-F 3 "" H 5200 6450 50  0001 C CNN
-	1    5200 6450
+P 4400 6450
+F 0 "#PWR013" H 4400 6300 50  0001 C CNN
+F 1 "+5V" V 4415 6578 50  0000 L CNN
+F 2 "" H 4400 6450 50  0001 C CNN
+F 3 "" H 4400 6450 50  0001 C CNN
+	1    4400 6450
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+5V #PWR014
 U 1 1 61810F5E
-P 5200 6550
-F 0 "#PWR014" H 5200 6400 50  0001 C CNN
-F 1 "+5V" V 5215 6678 50  0000 L CNN
-F 2 "" H 5200 6550 50  0001 C CNN
-F 3 "" H 5200 6550 50  0001 C CNN
-	1    5200 6550
+P 4400 6550
+F 0 "#PWR014" H 4400 6400 50  0001 C CNN
+F 1 "+5V" V 4415 6678 50  0000 L CNN
+F 2 "" H 4400 6550 50  0001 C CNN
+F 3 "" H 4400 6550 50  0001 C CNN
+	1    4400 6550
 	0    -1   -1   0   
 $EndComp
 Text Label 3050 3250 0    50   ~ 0
@@ -373,7 +373,7 @@ Text Label 5800 3250 0    50   ~ 0
 INT_0x1
 Text Label 3050 6450 0    50   ~ 0
 INT_0x2
-Text Label 6600 6450 0    50   ~ 0
+Text Label 5800 6450 0    50   ~ 0
 INT_0x3
 $Comp
 L keyboard-rescue:MCP23017T-E_SO-MCP23017-keyboard-rescue U2
@@ -431,7 +431,7 @@ U 1 1 6185290D
 P 10000 1450
 F 0 "M4" V 10046 1406 50  0000 R CNN
 F 1 "E" V 9955 1406 50  0000 R CNN
-F 2 "Kailh_Pog:SW_Kailh_Choc_V1_1.00u" H 10030 1600 20  0001 C CNN
+F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 10030 1600 20  0001 C CNN
 F 3 "" H 10000 1450 50  0001 C CNN
 	1    10000 1450
 	0    -1   -1   0   
@@ -442,7 +442,7 @@ U 1 1 61856AAF
 P 10350 1450
 F 0 "M5" V 10396 1406 50  0000 R CNN
 F 1 "R" V 10305 1406 50  0000 R CNN
-F 2 "Kailh_Pog:SW_Kailh_Choc_V1_1.00u" H 10380 1600 20  0001 C CNN
+F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 10380 1600 20  0001 C CNN
 F 3 "" H 10350 1450 50  0001 C CNN
 	1    10350 1450
 	0    -1   -1   0   
@@ -453,7 +453,7 @@ U 1 1 61856F7B
 P 10700 1450
 F 0 "M6" V 10746 1406 50  0000 R CNN
 F 1 "T" V 10655 1406 50  0000 R CNN
-F 2 "Kailh_Pog:SW_Kailh_Choc_V1_1.00u" H 10730 1600 20  0001 C CNN
+F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 10730 1600 20  0001 C CNN
 F 3 "" H 10700 1450 50  0001 C CNN
 	1    10700 1450
 	0    -1   -1   0   
@@ -617,111 +617,111 @@ $EndComp
 $Comp
 L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical-keyboard-rescue M25
 U 1 1 61D3EA67
-P 8950 2950
-F 0 "M25" V 8996 2906 50  0000 R CNN
-F 1 "Shift" V 8905 2906 50  0000 R CNN
-F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 8980 3100 20  0001 C CNN
-F 3 "" H 8950 2950 50  0001 C CNN
-	1    8950 2950
+P 8950 3000
+F 0 "M25" V 8996 2956 50  0000 R CNN
+F 1 "Shift" V 8905 2956 50  0000 R CNN
+F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 8980 3150 20  0001 C CNN
+F 3 "" H 8950 3000 50  0001 C CNN
+	1    8950 3000
 	0    -1   -1   0   
 $EndComp
 $Comp
 L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical-keyboard-rescue M26
 U 1 1 61D3EA71
-P 9300 2950
-F 0 "M26" V 9346 2906 50  0000 R CNN
-F 1 "Z" V 9255 2906 50  0000 R CNN
-F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 9330 3100 20  0001 C CNN
-F 3 "" H 9300 2950 50  0001 C CNN
-	1    9300 2950
+P 9300 3000
+F 0 "M26" V 9346 2956 50  0000 R CNN
+F 1 "Z" V 9255 2956 50  0000 R CNN
+F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 9330 3150 20  0001 C CNN
+F 3 "" H 9300 3000 50  0001 C CNN
+	1    9300 3000
 	0    -1   -1   0   
 $EndComp
 $Comp
 L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical-keyboard-rescue M27
 U 1 1 61D3EA7B
-P 9650 2950
-F 0 "M27" V 9696 2906 50  0000 R CNN
-F 1 "X" V 9605 2906 50  0000 R CNN
-F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 9680 3100 20  0001 C CNN
-F 3 "" H 9650 2950 50  0001 C CNN
-	1    9650 2950
+P 9650 3000
+F 0 "M27" V 9696 2956 50  0000 R CNN
+F 1 "X" V 9605 2956 50  0000 R CNN
+F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 9680 3150 20  0001 C CNN
+F 3 "" H 9650 3000 50  0001 C CNN
+	1    9650 3000
 	0    -1   -1   0   
 $EndComp
 $Comp
 L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical-keyboard-rescue M28
 U 1 1 61D3EA85
-P 10000 2950
-F 0 "M28" V 10046 2906 50  0000 R CNN
-F 1 "C" V 9955 2906 50  0000 R CNN
-F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 10030 3100 20  0001 C CNN
-F 3 "" H 10000 2950 50  0001 C CNN
-	1    10000 2950
+P 10000 3000
+F 0 "M28" V 10046 2956 50  0000 R CNN
+F 1 "C" V 9955 2956 50  0000 R CNN
+F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 10030 3150 20  0001 C CNN
+F 3 "" H 10000 3000 50  0001 C CNN
+	1    10000 3000
 	0    -1   -1   0   
 $EndComp
 $Comp
 L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical-keyboard-rescue M41
 U 1 1 61DA36F5
-P 10350 3750
-F 0 "M41" V 10396 3706 50  0000 R CNN
-F 1 "Down" V 10305 3706 50  0000 R CNN
-F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 10380 3900 20  0001 C CNN
-F 3 "" H 10350 3750 50  0001 C CNN
-	1    10350 3750
+P 10350 3700
+F 0 "M41" V 10396 3656 50  0000 R CNN
+F 1 "Down" V 10305 3656 50  0000 R CNN
+F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 10380 3850 20  0001 C CNN
+F 3 "" H 10350 3700 50  0001 C CNN
+	1    10350 3700
 	0    -1   -1   0   
 $EndComp
 $Comp
 L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical-keyboard-rescue M42
 U 1 1 61DA36FF
-P 10700 3750
-F 0 "M42" V 10750 3700 50  0000 R CNN
-F 1 "Space" V 10650 3700 50  0000 R CNN
-F 2 "Kailh_Pog:SW_Kailh_Choc_V1_2.00u" H 10730 3900 20  0001 C CNN
-F 3 "" H 10700 3750 50  0001 C CNN
-	1    10700 3750
+P 10700 3700
+F 0 "M42" V 10750 3650 50  0000 R CNN
+F 1 "Space" V 10650 3650 50  0000 R CNN
+F 2 "Hardware:SW_Kailh_Choc_V1_2.00u" H 10730 3850 20  0001 C CNN
+F 3 "" H 10700 3700 50  0001 C CNN
+	1    10700 3700
 	0    -1   -1   0   
 $EndComp
 $Comp
 L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical-keyboard-rescue M43
 U 1 1 61DA3709
-P 11050 3750
-F 0 "M43" V 11096 3706 50  0000 R CNN
-F 1 "Up" V 11005 3706 50  0000 R CNN
-F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 11080 3900 20  0001 C CNN
-F 3 "" H 11050 3750 50  0001 C CNN
-	1    11050 3750
+P 11050 3700
+F 0 "M43" V 11096 3656 50  0000 R CNN
+F 1 "Up" V 11005 3656 50  0000 R CNN
+F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 11080 3850 20  0001 C CNN
+F 3 "" H 11050 3700 50  0001 C CNN
+	1    11050 3700
 	0    -1   -1   0   
 $EndComp
 $Comp
 L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical-keyboard-rescue M44
 U 1 1 61DA3713
-P 11400 3750
-F 0 "M44" V 11446 3706 50  0000 R CNN
-F 1 "L_Ar" V 11355 3706 50  0000 R CNN
-F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 11430 3900 20  0001 C CNN
-F 3 "" H 11400 3750 50  0001 C CNN
-	1    11400 3750
+P 11400 3700
+F 0 "M44" V 11446 3656 50  0000 R CNN
+F 1 "L_Ar" V 11355 3656 50  0000 R CNN
+F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 11430 3850 20  0001 C CNN
+F 3 "" H 11400 3700 50  0001 C CNN
+	1    11400 3700
 	0    -1   -1   0   
 $EndComp
 $Comp
 L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical-keyboard-rescue M46
 U 1 1 61DA3727
-P 12100 3750
-F 0 "M46" V 12146 3706 50  0000 R CNN
-F 1 "U_Ar" V 12055 3706 50  0000 R CNN
-F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 12130 3900 20  0001 C CNN
-F 3 "" H 12100 3750 50  0001 C CNN
-	1    12100 3750
+P 12100 3700
+F 0 "M46" V 12146 3656 50  0000 R CNN
+F 1 "U_Ar" V 12055 3656 50  0000 R CNN
+F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 12130 3850 20  0001 C CNN
+F 3 "" H 12100 3700 50  0001 C CNN
+	1    12100 3700
 	0    -1   -1   0   
 $EndComp
 $Comp
 L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical-keyboard-rescue M47
 U 1 1 61DA3731
-P 12450 3750
-F 0 "M47" V 12496 3706 50  0000 R CNN
-F 1 "R_Ar" V 12405 3706 50  0000 R CNN
-F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 12480 3900 20  0001 C CNN
-F 3 "" H 12450 3750 50  0001 C CNN
-	1    12450 3750
+P 12450 3700
+F 0 "M47" V 12496 3656 50  0000 R CNN
+F 1 "R_Ar" V 12405 3656 50  0000 R CNN
+F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 12480 3850 20  0001 C CNN
+F 3 "" H 12450 3700 50  0001 C CNN
+	1    12450 3700
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -750,40 +750,22 @@ F 6 "" H 2350 3850 50  0001 L BNN "PARTREV"
 	1    0    0    -1  
 $EndComp
 NoConn ~ 3050 3150
-NoConn ~ 6600 6350
+NoConn ~ 5800 6350
 NoConn ~ 3050 6350
 NoConn ~ 5800 3150
-Wire Wire Line
-	1650 3850 1250 3850
-Wire Wire Line
-	1650 3950 1250 3950
-Wire Wire Line
-	1650 4050 1250 4050
-Wire Wire Line
-	1650 4150 1250 4150
-Wire Wire Line
-	3050 4450 3450 4450
-Wire Wire Line
-	3050 4350 3450 4350
-Wire Wire Line
-	3050 4250 3450 4250
-Wire Wire Line
-	3050 4150 3450 4150
-Text Label 1250 3850 0    50   ~ 0
+Text Label 1650 4150 2    50   ~ 0
 ROW_1_0
-Text Label 1250 3950 0    50   ~ 0
+Text Label 1650 4050 2    50   ~ 0
 ROW_1_1
-Text Label 1250 4050 0    50   ~ 0
+Text Label 1650 3950 2    50   ~ 0
 ROW_1_2
-Text Label 1250 4150 0    50   ~ 0
+Text Label 1650 3850 2    50   ~ 0
 ROW_1_3
-Text Label 3450 4450 2    50   ~ 0
-ROW_1_4
-Text Label 3450 4350 2    50   ~ 0
+Text Label 3050 3850 0    50   ~ 0
 ROW_1_5
-Text Label 3450 4250 2    50   ~ 0
+Text Label 3050 3950 0    50   ~ 0
 ROW_1_6
-Text Label 3450 4150 2    50   ~ 0
+Text Label 3050 4050 0    50   ~ 0
 ROW_1_7
 Text Label 10700 1250 0    50   ~ 0
 ROW_1_5
@@ -876,130 +858,122 @@ Text Label 11750 2050 0    50   ~ 0
 ROW_2_8
 NoConn ~ 4400 4550
 NoConn ~ 4400 4450
-Text Label 1650 7050 2    50   ~ 0
-ROW_3_0
-Text Label 1650 7150 2    50   ~ 0
-ROW_3_1
-Text Label 1650 7250 2    50   ~ 0
-ROW_3_2
-Text Label 1650 7350 2    50   ~ 0
-ROW_3_3
-Text Label 3050 7650 0    50   ~ 0
+Text Label 3050 6950 0    50   ~ 0
 ROW_3_4
-Text Label 3050 7550 0    50   ~ 0
+Text Label 3050 7050 0    50   ~ 0
 ROW_3_5
-Text Label 3050 7450 0    50   ~ 0
+Text Label 3050 7150 0    50   ~ 0
 ROW_3_6
-Text Label 3050 7350 0    50   ~ 0
+Text Label 3050 7250 0    50   ~ 0
 ROW_3_7
 $Comp
 L keyboard-rescue:MCP23017T-E_SO-MCP23017-keyboard-rescue U4
 U 1 1 61B5E659
-P 5900 7050
-F 0 "U4" H 5900 8217 50  0000 C CNN
-F 1 "ROW_4" H 5900 8126 50  0000 C CNN
-F 2 "MCP23017:SOIC127P1030X265-28N" H 5900 7050 50  0001 L BNN
-F 3 "" H 5900 7050 50  0001 L BNN
-F 4 "IPC7351B" H 5900 7050 50  0001 L BNN "STANDARD"
-F 5 "Microchip" H 5900 7050 50  0001 L BNN "MANUFACTURER"
-F 6 "" H 5900 7050 50  0001 L BNN "PARTREV"
-	1    5900 7050
+P 5100 7050
+F 0 "U4" H 5100 8217 50  0000 C CNN
+F 1 "ROW_4" H 5100 8126 50  0000 C CNN
+F 2 "MCP23017:SOIC127P1030X265-28N" H 5100 7050 50  0001 L BNN
+F 3 "" H 5100 7050 50  0001 L BNN
+F 4 "IPC7351B" H 5100 7050 50  0001 L BNN "STANDARD"
+F 5 "Microchip" H 5100 7050 50  0001 L BNN "MANUFACTURER"
+F 6 "" H 5100 7050 50  0001 L BNN "PARTREV"
+	1    5100 7050
 	1    0    0    -1  
 $EndComp
-Text Label 5200 7050 2    50   ~ 0
+Text Label 4400 7250 2    50   ~ 0
 ROW_4_0
-Text Label 5200 7150 2    50   ~ 0
+Text Label 4400 7150 2    50   ~ 0
 ROW_4_1
-Text Label 5200 7250 2    50   ~ 0
+Text Label 4400 7050 2    50   ~ 0
 ROW_4_2
-Text Label 6600 7650 0    50   ~ 0
+Text Label 5800 6950 0    50   ~ 0
 ROW_4_3
-Text Label 6600 7550 0    50   ~ 0
+Text Label 5800 7050 0    50   ~ 0
 ROW_4_4
-Text Label 6600 7450 0    50   ~ 0
+Text Label 5800 7150 0    50   ~ 0
 ROW_4_5
-Text Label 6600 7350 0    50   ~ 0
+Text Label 5800 7250 0    50   ~ 0
 ROW_4_6
-Text Label 6600 7250 0    50   ~ 0
+Text Label 5800 7350 0    50   ~ 0
 ROW_4_7
-Text Label 12850 2750 0    50   ~ 0
+Text Label 12850 2800 0    50   ~ 0
 ROW_3_11
-Text Label 12450 2750 0    50   ~ 0
+Text Label 12450 2800 0    50   ~ 0
 ROW_3_10
-Text Label 12100 2750 0    50   ~ 0
+Text Label 12100 2800 0    50   ~ 0
 ROW_3_9
-Text Label 11750 2750 0    50   ~ 0
+Text Label 11750 2800 0    50   ~ 0
 ROW_3_8
-Text Label 11400 2750 0    50   ~ 0
+Text Label 11400 2800 0    50   ~ 0
 ROW_3_7
-Text Label 11050 2750 0    50   ~ 0
+Text Label 11050 2800 0    50   ~ 0
 ROW_3_6
-Text Label 10700 2750 0    50   ~ 0
+Text Label 10700 2800 0    50   ~ 0
 ROW_3_5
-Text Label 10350 2750 0    50   ~ 0
+Text Label 10350 2800 0    50   ~ 0
 ROW_3_4
-Text Label 10000 2750 0    50   ~ 0
+Text Label 10000 2800 0    50   ~ 0
 ROW_3_3
-Text Label 9650 2750 0    50   ~ 0
+Text Label 9650 2800 0    50   ~ 0
 ROW_3_2
-Text Label 9300 2750 0    50   ~ 0
+Text Label 9300 2800 0    50   ~ 0
 ROW_3_1
-Text Label 8950 2750 0    50   ~ 0
+Text Label 8950 2800 0    50   ~ 0
 ROW_3_0
 $Comp
 L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical-keyboard-rescue M40
 U 1 1 61DA360A
-P 10000 3750
-F 0 "M40" V 10046 3706 50  0000 R CNN
-F 1 "Super" V 9955 3706 50  0000 R CNN
-F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 10030 3900 20  0001 C CNN
-F 3 "" H 10000 3750 50  0001 C CNN
-	1    10000 3750
+P 10000 3700
+F 0 "M40" V 10046 3656 50  0000 R CNN
+F 1 "Super" V 9955 3656 50  0000 R CNN
+F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 10030 3850 20  0001 C CNN
+F 3 "" H 10000 3700 50  0001 C CNN
+	1    10000 3700
 	0    -1   -1   0   
 $EndComp
 $Comp
 L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical-keyboard-rescue M39
 U 1 1 61DA3600
-P 9650 3750
-F 0 "M39" V 9696 3706 50  0000 R CNN
-F 1 "Alt" V 9605 3706 50  0000 R CNN
-F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 9680 3900 20  0001 C CNN
-F 3 "" H 9650 3750 50  0001 C CNN
-	1    9650 3750
+P 9650 3700
+F 0 "M39" V 9696 3656 50  0000 R CNN
+F 1 "Alt" V 9605 3656 50  0000 R CNN
+F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 9680 3850 20  0001 C CNN
+F 3 "" H 9650 3700 50  0001 C CNN
+	1    9650 3700
 	0    -1   -1   0   
 $EndComp
-Text Label 8950 3550 0    50   ~ 0
+Text Label 8950 3500 0    50   ~ 0
 ROW_4_0
-Text Label 9300 3550 0    50   ~ 0
+Text Label 9300 3500 0    50   ~ 0
 ROW_4_1
-Text Label 9650 3550 0    50   ~ 0
+Text Label 9650 3500 0    50   ~ 0
 ROW_4_2
-Text Label 10000 3550 0    50   ~ 0
+Text Label 10000 3500 0    50   ~ 0
 ROW_4_3
-Text Label 10350 3550 0    50   ~ 0
+Text Label 10350 3500 0    50   ~ 0
 ROW_4_4
-Text Label 10700 3550 0    50   ~ 0
+Text Label 10700 3500 0    50   ~ 0
 ROW_4_5
-Text Label 11050 3550 0    50   ~ 0
+Text Label 11050 3500 0    50   ~ 0
 ROW_4_6
-Text Label 11400 3550 0    50   ~ 0
+Text Label 11400 3500 0    50   ~ 0
 ROW_4_7
 $Comp
 L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical-keyboard-rescue M45
 U 1 1 61DA371D
-P 11750 3750
-F 0 "M45" V 11796 3706 50  0000 R CNN
-F 1 "D_Ar" V 11705 3706 50  0000 R CNN
-F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 11780 3900 20  0001 C CNN
-F 3 "" H 11750 3750 50  0001 C CNN
-	1    11750 3750
+P 11750 3700
+F 0 "M45" V 11796 3656 50  0000 R CNN
+F 1 "D_Ar" V 11705 3656 50  0000 R CNN
+F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 11780 3850 20  0001 C CNN
+F 3 "" H 11750 3700 50  0001 C CNN
+	1    11750 3700
 	0    -1   -1   0   
 $EndComp
-Text Label 11750 3550 0    50   ~ 0
+Text Label 11750 3500 0    50   ~ 0
 ROW_4_8
-Text Label 12100 3550 0    50   ~ 0
+Text Label 12100 3500 0    50   ~ 0
 ROW_4_9
-Text Label 12450 3550 0    50   ~ 0
+Text Label 12450 3500 0    50   ~ 0
 ROW_4_10
 $Comp
 L power:+5V #PWR0105
@@ -1015,12 +989,12 @@ $EndComp
 $Comp
 L power:+5V #PWR0106
 U 1 1 61E62C1F
-P 5200 6750
-F 0 "#PWR0106" H 5200 6600 50  0001 C CNN
-F 1 "+5V" V 5215 6878 50  0000 L CNN
-F 2 "" H 5200 6750 50  0001 C CNN
-F 3 "" H 5200 6750 50  0001 C CNN
-	1    5200 6750
+P 4400 6750
+F 0 "#PWR0106" H 4400 6600 50  0001 C CNN
+F 1 "+5V" V 4415 6878 50  0000 L CNN
+F 2 "" H 4400 6750 50  0001 C CNN
+F 3 "" H 4400 6750 50  0001 C CNN
+	1    4400 6750
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1048,120 +1022,120 @@ $EndComp
 NoConn ~ 1650 7550
 NoConn ~ 1650 7650
 NoConn ~ 1650 7750
-NoConn ~ 5200 7450
-NoConn ~ 5200 7550
-NoConn ~ 5200 7650
-NoConn ~ 5200 7750
+NoConn ~ 4400 7450
+NoConn ~ 4400 7550
+NoConn ~ 4400 7650
+NoConn ~ 4400 7750
 Text Label 4600 1900 2    50   ~ 0
 INT_0x4
 $Comp
 L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical-keyboard-rescue M38
 U 1 1 61DA35F6
-P 9300 3750
-F 0 "M38" V 9346 3706 50  0000 R CNN
-F 1 "Ctrl" V 9255 3706 50  0000 R CNN
-F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 9330 3900 20  0001 C CNN
-F 3 "" H 9300 3750 50  0001 C CNN
-	1    9300 3750
+P 9300 3700
+F 0 "M38" V 9346 3656 50  0000 R CNN
+F 1 "Ctrl" V 9255 3656 50  0000 R CNN
+F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 9330 3850 20  0001 C CNN
+F 3 "" H 9300 3700 50  0001 C CNN
+	1    9300 3700
 	0    -1   -1   0   
 $EndComp
 $Comp
 L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical-keyboard-rescue M37
 U 1 1 61DA35EC
-P 8950 3750
-F 0 "M37" V 8996 3706 50  0000 R CNN
-F 1 "Blnk" V 8905 3706 50  0000 R CNN
-F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 8980 3900 20  0001 C CNN
-F 3 "" H 8950 3750 50  0001 C CNN
-	1    8950 3750
+P 8950 3700
+F 0 "M37" V 8996 3656 50  0000 R CNN
+F 1 "Blnk" V 8905 3656 50  0000 R CNN
+F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 8980 3850 20  0001 C CNN
+F 3 "" H 8950 3700 50  0001 C CNN
+	1    8950 3700
 	0    -1   -1   0   
 $EndComp
 $Comp
 L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical-keyboard-rescue M36
 U 1 1 61DA35E2
-P 12850 2950
-F 0 "M36" V 12896 2906 50  0000 R CNN
-F 1 "Enter" V 12805 2906 50  0000 R CNN
-F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 12880 3100 20  0001 C CNN
-F 3 "" H 12850 2950 50  0001 C CNN
-	1    12850 2950
+P 12850 3000
+F 0 "M36" V 12896 2956 50  0000 R CNN
+F 1 "Enter" V 12805 2956 50  0000 R CNN
+F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 12880 3150 20  0001 C CNN
+F 3 "" H 12850 3000 50  0001 C CNN
+	1    12850 3000
 	0    -1   -1   0   
 $EndComp
 $Comp
 L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical-keyboard-rescue M35
 U 1 1 61DA35D8
-P 12450 2950
-F 0 "M35" V 12496 2906 50  0000 R CNN
-F 1 "/" V 12405 2906 50  0000 R CNN
-F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 12480 3100 20  0001 C CNN
-F 3 "" H 12450 2950 50  0001 C CNN
-	1    12450 2950
+P 12450 3000
+F 0 "M35" V 12496 2956 50  0000 R CNN
+F 1 "/" V 12405 2956 50  0000 R CNN
+F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 12480 3150 20  0001 C CNN
+F 3 "" H 12450 3000 50  0001 C CNN
+	1    12450 3000
 	0    -1   -1   0   
 $EndComp
 $Comp
 L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical-keyboard-rescue M34
 U 1 1 61DA35CE
-P 12100 2950
-F 0 "M34" V 12146 2906 50  0000 R CNN
-F 1 "." V 12055 2906 50  0000 R CNN
-F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 12130 3100 20  0001 C CNN
-F 3 "" H 12100 2950 50  0001 C CNN
-	1    12100 2950
+P 12100 3000
+F 0 "M34" V 12146 2956 50  0000 R CNN
+F 1 "." V 12055 2956 50  0000 R CNN
+F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 12130 3150 20  0001 C CNN
+F 3 "" H 12100 3000 50  0001 C CNN
+	1    12100 3000
 	0    -1   -1   0   
 $EndComp
 $Comp
 L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical-keyboard-rescue M33
 U 1 1 61DA35C4
-P 11750 2950
-F 0 "M33" V 11796 2906 50  0000 R CNN
-F 1 "," V 11705 2906 50  0000 R CNN
-F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 11780 3100 20  0001 C CNN
-F 3 "" H 11750 2950 50  0001 C CNN
-	1    11750 2950
+P 11750 3000
+F 0 "M33" V 11796 2956 50  0000 R CNN
+F 1 "," V 11705 2956 50  0000 R CNN
+F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 11780 3150 20  0001 C CNN
+F 3 "" H 11750 3000 50  0001 C CNN
+	1    11750 3000
 	0    -1   -1   0   
 $EndComp
 $Comp
 L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical-keyboard-rescue M32
 U 1 1 61D3EAAD
-P 11400 2950
-F 0 "M32" V 11446 2906 50  0000 R CNN
-F 1 "M" V 11355 2906 50  0000 R CNN
-F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 11430 3100 20  0001 C CNN
-F 3 "" H 11400 2950 50  0001 C CNN
-	1    11400 2950
+P 11400 3000
+F 0 "M32" V 11446 2956 50  0000 R CNN
+F 1 "M" V 11355 2956 50  0000 R CNN
+F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 11430 3150 20  0001 C CNN
+F 3 "" H 11400 3000 50  0001 C CNN
+	1    11400 3000
 	0    -1   -1   0   
 $EndComp
 $Comp
 L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical-keyboard-rescue M31
 U 1 1 61D3EAA3
-P 11050 2950
-F 0 "M31" V 11096 2906 50  0000 R CNN
-F 1 "N" V 11005 2906 50  0000 R CNN
-F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 11080 3100 20  0001 C CNN
-F 3 "" H 11050 2950 50  0001 C CNN
-	1    11050 2950
+P 11050 3000
+F 0 "M31" V 11096 2956 50  0000 R CNN
+F 1 "N" V 11005 2956 50  0000 R CNN
+F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 11080 3150 20  0001 C CNN
+F 3 "" H 11050 3000 50  0001 C CNN
+	1    11050 3000
 	0    -1   -1   0   
 $EndComp
 $Comp
 L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical-keyboard-rescue M30
 U 1 1 61D3EA99
-P 10700 2950
-F 0 "M30" V 10746 2906 50  0000 R CNN
-F 1 "B" V 10655 2906 50  0000 R CNN
-F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 10730 3100 20  0001 C CNN
-F 3 "" H 10700 2950 50  0001 C CNN
-	1    10700 2950
+P 10700 3000
+F 0 "M30" V 10746 2956 50  0000 R CNN
+F 1 "B" V 10655 2956 50  0000 R CNN
+F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 10730 3150 20  0001 C CNN
+F 3 "" H 10700 3000 50  0001 C CNN
+	1    10700 3000
 	0    -1   -1   0   
 $EndComp
 $Comp
 L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical-keyboard-rescue M29
 U 1 1 61D3EA8F
-P 10350 2950
-F 0 "M29" V 10400 2900 50  0000 R CNN
-F 1 "V" V 10300 2900 50  0000 R CNN
-F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 10380 3100 20  0001 C CNN
-F 3 "" H 10350 2950 50  0001 C CNN
-	1    10350 2950
+P 10350 3000
+F 0 "M29" V 10400 2950 50  0000 R CNN
+F 1 "V" V 10300 2950 50  0000 R CNN
+F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 10380 3150 20  0001 C CNN
+F 3 "" H 10350 3000 50  0001 C CNN
+	1    10350 3000
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1178,23 +1152,23 @@ $EndComp
 $Comp
 L power:GND #PWR0102
 U 1 1 61FD83F1
-P 8950 3150
-F 0 "#PWR0102" H 8950 2900 50  0001 C CNN
-F 1 "GND" H 8955 2977 50  0000 C CNN
-F 2 "" H 8950 3150 50  0001 C CNN
-F 3 "" H 8950 3150 50  0001 C CNN
-	1    8950 3150
+P 8950 3200
+F 0 "#PWR0102" H 8950 2950 50  0001 C CNN
+F 1 "GND" H 8955 3027 50  0000 C CNN
+F 2 "" H 8950 3200 50  0001 C CNN
+F 3 "" H 8950 3200 50  0001 C CNN
+	1    8950 3200
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0103
 U 1 1 61FD8831
-P 8950 3950
-F 0 "#PWR0103" H 8950 3700 50  0001 C CNN
-F 1 "GND" H 8955 3777 50  0000 C CNN
-F 2 "" H 8950 3950 50  0001 C CNN
-F 3 "" H 8950 3950 50  0001 C CNN
-	1    8950 3950
+P 8950 3900
+F 0 "#PWR0103" H 8950 3650 50  0001 C CNN
+F 1 "GND" H 8955 3727 50  0000 C CNN
+F 2 "" H 8950 3900 50  0001 C CNN
+F 3 "" H 8950 3900 50  0001 C CNN
+	1    8950 3900
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1231,123 +1205,105 @@ Connection ~ 12450 2450
 Wire Wire Line
 	12450 2450 12100 2450
 Wire Wire Line
-	12850 3150 12450 3150
-Connection ~ 8950 3150
-Connection ~ 9300 3150
+	12850 3200 12450 3200
+Connection ~ 8950 3200
+Connection ~ 9300 3200
 Wire Wire Line
-	9300 3150 8950 3150
-Connection ~ 9650 3150
+	9300 3200 8950 3200
+Connection ~ 9650 3200
 Wire Wire Line
-	9650 3150 9300 3150
-Connection ~ 10000 3150
+	9650 3200 9300 3200
+Connection ~ 10000 3200
 Wire Wire Line
-	10000 3150 9650 3150
-Connection ~ 10350 3150
+	10000 3200 9650 3200
+Connection ~ 10350 3200
 Wire Wire Line
-	10350 3150 10000 3150
-Connection ~ 10700 3150
+	10350 3200 10000 3200
+Connection ~ 10700 3200
 Wire Wire Line
-	10700 3150 10350 3150
-Connection ~ 11050 3150
+	10700 3200 10350 3200
+Connection ~ 11050 3200
 Wire Wire Line
-	11050 3150 10700 3150
-Connection ~ 11400 3150
+	11050 3200 10700 3200
+Connection ~ 11400 3200
 Wire Wire Line
-	11400 3150 11050 3150
-Connection ~ 11750 3150
+	11400 3200 11050 3200
+Connection ~ 11750 3200
 Wire Wire Line
-	11750 3150 11400 3150
-Connection ~ 12100 3150
+	11750 3200 11400 3200
+Connection ~ 12100 3200
 Wire Wire Line
-	12100 3150 11750 3150
-Connection ~ 12450 3150
+	12100 3200 11750 3200
+Connection ~ 12450 3200
 Wire Wire Line
-	12450 3150 12100 3150
+	12450 3200 12100 3200
 Wire Wire Line
-	12450 3950 12100 3950
-Connection ~ 8950 3950
-Connection ~ 9300 3950
+	12450 3900 12100 3900
+Connection ~ 8950 3900
+Connection ~ 9300 3900
 Wire Wire Line
-	9300 3950 8950 3950
-Connection ~ 9650 3950
+	9300 3900 8950 3900
+Connection ~ 9650 3900
 Wire Wire Line
-	9650 3950 9300 3950
-Connection ~ 10000 3950
+	9650 3900 9300 3900
+Connection ~ 10000 3900
 Wire Wire Line
-	10000 3950 9650 3950
-Connection ~ 10350 3950
+	10000 3900 9650 3900
+Connection ~ 10350 3900
 Wire Wire Line
-	10350 3950 10000 3950
-Connection ~ 10700 3950
+	10350 3900 10000 3900
+Connection ~ 10700 3900
 Wire Wire Line
-	10700 3950 10350 3950
-Connection ~ 11050 3950
+	10700 3900 10350 3900
+Connection ~ 11050 3900
 Wire Wire Line
-	11050 3950 10700 3950
-Connection ~ 11400 3950
+	11050 3900 10700 3900
+Connection ~ 11400 3900
 Wire Wire Line
-	11400 3950 11050 3950
-Connection ~ 11750 3950
+	11400 3900 11050 3900
+Connection ~ 11750 3900
 Wire Wire Line
-	11750 3950 11400 3950
-Connection ~ 12100 3950
+	11750 3900 11400 3900
+Connection ~ 12100 3900
 Wire Wire Line
-	12100 3950 11750 3950
+	12100 3900 11750 3900
 NoConn ~ 1650 4350
 NoConn ~ 1650 4250
 NoConn ~ 4400 4350
 NoConn ~ 4400 4250
-NoConn ~ 5200 7350
+NoConn ~ 4400 7350
 NoConn ~ 1650 7450
-Text Label 3050 6950 0    50   ~ 0
+Text Label 3050 7650 0    50   ~ 0
 ROW_3_11
-Text Label 3050 7050 0    50   ~ 0
+Text Label 3050 7550 0    50   ~ 0
 ROW_3_10
-Text Label 3050 7150 0    50   ~ 0
+Text Label 3050 7450 0    50   ~ 0
 ROW_3_9
-Text Label 3050 7250 0    50   ~ 0
+Text Label 3050 7350 0    50   ~ 0
 ROW_3_8
-Text Label 1650 6950 2    50   ~ 0
-SDA_
-Text Label 3450 3750 2    50   ~ 0
+Text Label 3050 4450 0    50   ~ 0
 ROW_1_11
-Text Label 3450 3850 2    50   ~ 0
+Text Label 3050 4350 0    50   ~ 0
 ROW_1_10
-Text Label 3450 3950 2    50   ~ 0
+Text Label 3050 4250 0    50   ~ 0
 ROW_1_9
-Text Label 3450 4050 2    50   ~ 0
+Text Label 3050 4150 0    50   ~ 0
 ROW_1_8
-Wire Wire Line
-	3450 3750 3050 3750
-Wire Wire Line
-	3450 3850 3050 3850
-Wire Wire Line
-	3450 3950 3050 3950
-Wire Wire Line
-	3450 4050 3050 4050
 Text Label 1650 3750 2    50   ~ 0
 SDA_
-Wire Wire Line
-	4400 4150 4000 4150
-Wire Wire Line
-	4400 4050 4000 4050
-Wire Wire Line
-	4400 3950 4000 3950
-Wire Wire Line
-	4400 3850 4000 3850
-Text Label 4000 3850 0    50   ~ 0
+Text Label 4400 4150 2    50   ~ 0
 ROW_2_0
-Text Label 4000 3950 0    50   ~ 0
+Text Label 4400 4050 2    50   ~ 0
 ROW_2_1
-Text Label 4000 4050 0    50   ~ 0
+Text Label 4400 3950 2    50   ~ 0
 ROW_2_2
-Text Label 4000 4150 0    50   ~ 0
+Text Label 4400 3850 2    50   ~ 0
 ROW_2_3
-Text Label 6600 6950 0    50   ~ 0
+Text Label 5800 7650 0    50   ~ 0
 ROW_4_10
-Text Label 6600 7050 0    50   ~ 0
+Text Label 5800 7550 0    50   ~ 0
 ROW_4_9
-Text Label 6600 7150 0    50   ~ 0
+Text Label 5800 7450 0    50   ~ 0
 ROW_4_8
 $Comp
 L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical-keyboard-rescue M3
@@ -1355,7 +1311,7 @@ U 1 1 61852501
 P 9650 1450
 F 0 "M3" V 9696 1406 50  0000 R CNN
 F 1 "W" V 9605 1406 50  0000 R CNN
-F 2 "Kailh_Pog:SW_Kailh_Choc_V1_1.00u" H 9680 1600 20  0001 C CNN
+F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 9680 1600 20  0001 C CNN
 F 3 "" H 9650 1450 50  0001 C CNN
 	1    9650 1450
 	0    -1   -1   0   
@@ -1366,48 +1322,28 @@ U 1 1 6184ED93
 P 9300 1450
 F 0 "M2" V 9346 1406 50  0000 R CNN
 F 1 "Q" V 9255 1406 50  0000 R CNN
-F 2 "Kailh_Pog:SW_Kailh_Choc_V1_1.00u" H 9330 1600 20  0001 C CNN
+F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 9330 1600 20  0001 C CNN
 F 3 "" H 9300 1450 50  0001 C CNN
 	1    9300 1450
 	0    -1   -1   0   
 $EndComp
-Text Label 5800 3750 0    50   ~ 0
+Text Label 5800 4450 0    50   ~ 0
 ROW_2_11
-Wire Wire Line
-	5800 4050 6200 4050
-Text Label 6200 4050 2    50   ~ 0
+Text Label 5800 4150 0    50   ~ 0
 ROW_2_8
-Text Label 6200 3950 2    50   ~ 0
+Text Label 5800 4250 0    50   ~ 0
 ROW_2_9
-Text Label 6200 3850 2    50   ~ 0
-ROW_2_10
-Wire Wire Line
-	6200 3950 5800 3950
-Wire Wire Line
-	6200 3850 5800 3850
-Wire Wire Line
-	5800 4150 6200 4150
-Wire Wire Line
-	5800 4250 6200 4250
-Wire Wire Line
-	5800 4350 6200 4350
-Wire Wire Line
-	5800 4450 6200 4450
-Text Label 6200 4450 2    50   ~ 0
+Text Label 5800 3750 0    50   ~ 0
 ROW_2_4
-Text Label 6200 4350 2    50   ~ 0
-ROW_2_5
-Text Label 6200 4250 2    50   ~ 0
+Text Label 5800 3950 0    50   ~ 0
 ROW_2_6
-Text Label 6200 4150 2    50   ~ 0
-ROW_2_7
 $Comp
 L keyboard-rescue:SWITCH-SPST-2TV-SparkFun-Electromechanical-keyboard-rescue M1
 U 1 1 61816482
 P 8950 1450
 F 0 "M1" V 8996 1406 50  0000 R CNN
 F 1 "Tab" V 8905 1406 50  0000 R CNN
-F 2 "Kailh_Pog:SW_Kailh_Choc_V1_1.00u" H 8980 1600 20  0001 C CNN
+F 2 "Hardware:SW_Kailh_Choc_V1_1.00u" H 8980 1600 20  0001 C CNN
 F 3 "" H 8950 1450 50  0001 C CNN
 	1    8950 1450
 	0    -1   -1   0   
@@ -1478,4 +1414,22 @@ F 3 "~" H 6950 2950 50  0001 C CNN
 	1    6950 2950
 	1    0    0    -1  
 $EndComp
+Text Label 5800 4350 0    50   ~ 0
+ROW_2_10
+Text Label 5800 4050 0    50   ~ 0
+ROW_2_7
+Text Label 5800 3850 0    50   ~ 0
+ROW_2_5
+Text Label 3050 3750 0    50   ~ 0
+ROW_1_4
+Text Label 1650 6950 2    50   ~ 0
+SDA_
+Text Label 1650 7050 2    50   ~ 0
+ROW_3_3
+Text Label 1650 7150 2    50   ~ 0
+ROW_3_2
+Text Label 1650 7250 2    50   ~ 0
+ROW_3_1
+Text Label 1650 7350 2    50   ~ 0
+ROW_3_0
 $EndSCHEMATC
