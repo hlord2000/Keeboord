@@ -1,4 +1,4 @@
-19217715356736402
+19222622261158299
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -51576,26 +51576,47 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 2
 2
 Hardware
-CONFIDENTIAL
+SOIC127P1030X265-28N
 
 
 0
-0
-0
+28
+28
 Hardware
 SW_Kailh_Choc_V1_1.00u
 Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
 Kailh Choc V1 Keyswitch Switch 1.00u
 0
-2
+4
 2
 Hardware
 SW_Kailh_Choc_V1_2.00u
 Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
 Kailh Choc V1 Keyswitch Switch 2.00u
 0
+4
+2
+Hardware
+SW_MX
+MX-style keyswitch
+MX,cherry,gateron,kailh
+0
 2
 2
+Hardware
+Seeeduino XIAO-MOUDLE14P-2.54-21X17.8MM
+
+
+0
+20
+20
+Hardware
+SeeeduinoXIAO-MOUDLE14P-2.54-21X17.8MM
+
+
+0
+20
+20
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
