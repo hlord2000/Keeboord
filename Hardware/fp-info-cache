@@ -1,4 +1,4 @@
-19222622261158299
+19404628694436593
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -51576,6 +51576,13 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 2
 2
 Hardware
+QFN40P700X700X90-57N
+
+
+0
+57
+57
+Hardware
 SOIC127P1030X265-28N
 
 
@@ -51587,7 +51594,7 @@ SW_Kailh_Choc_V1_1.00u
 Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
 Kailh Choc V1 Keyswitch Switch 1.00u
 0
-4
+2
 2
 Hardware
 SW_Kailh_Choc_V1_2.00u
