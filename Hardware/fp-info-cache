@@ -1,4 +1,4 @@
-19404628694436593
+19407904340795866
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -51590,6 +51590,20 @@ SOIC127P1030X265-28N
 28
 28
 Hardware
+SW_Cherry_MX_1.00u_PCB
+Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
+Cherry MX keyswitch 1.00u PCB
+0
+2
+2
+Hardware
+SW_Cherry_MX_2.00u_PCB
+Cherry MX keyswitch, 2.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
+Cherry MX keyswitch 2.00u PCB
+0
+2
+2
+Hardware
 SW_Kailh_Choc_V1_1.00u
 Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
 Kailh Choc V1 Keyswitch Switch 1.00u
@@ -51601,7 +51615,7 @@ SW_Kailh_Choc_V1_2.00u
 Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
 Kailh Choc V1 Keyswitch Switch 2.00u
 0
-4
+2
 2
 Hardware
 SW_MX
